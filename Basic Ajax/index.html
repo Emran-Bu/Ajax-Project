@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Ajax</title>
+</head>
+<body>
+    
+    <table class="table table-striped table-dark">
+
+        <tr>
+            <th>Id</th>
+            <th>User ID</th>
+            <th>Title</th>
+            <th>body</th>
+        </tr>
+        <tr class="">
+            <td>Emran</td>
+            <td>Emran</td>
+            <td>Emran</td>
+            <td>Emran</td>
+        </tr>
+        
+    </table>
+    <div class="page d-flex justify-content-center mb-5">
+
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                type: 'get',
+                url: 'https://jsonplaceholder.typicode.com/posts',
+                success: function(result) {
+                    console.log(result);
+                    for (const data of result) {
+                        $('table').append(
+                        `<tr>
+                            <td>${data.id}</td>
+                            <td>${data.userId}</td>
+                            <td>${data.title}</td>
+                            <td>${data.body}</td>
+                        </tr>`
+                    )
+
+                    }
+
+                }
+            })
+
+        })
+    </script>
+</body>
+</html>

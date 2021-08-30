@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body{
+    background: #b2bec3;
+}
+
+#main{
+    width: 800px;
+    margin: 20px auto;
+    background: white;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#header{
+    background: #6c5ce7;
+    color: #fff;
+    padding: 15px;
+}
+
+#header h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+#formData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+#formData #submit_form{
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 6px -1px;
+    padding: 15px;
+}
+
+#formData label{
+    margin: 10px;
+}
+
+#formData input{
+    margin: 10px;
+    padding: 5px;
+}
+
+#formData input[type=number]{
+    margin-left: 22px;
+}
+
+#formData input[type=button]{
+    background: blue;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+#formData input[type=button]:hover{
+    background: orange;
+}
+
+#responseid{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#response{
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 34%;
+    text-align: center;
+    /* background: #fededf;
+    color: #9c4150;
+    border: 1px solid #e7ced1; */
+}
+
+.errorMsg{
+    background: #fededf;
+    color: #9c4150;
+    border: 1px solid #e7ced1;
+}
+
+.successMsg{
+    background: #e0efda;
+    color: #407a4a;
+    border: 1px solid #c6dfb2;
+}
+
+.processMsg{
+    background: #d9edf6;
+    color: #377084;
+    border: 1px solid #c8dce5;
+}
+
+
+

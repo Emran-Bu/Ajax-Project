@@ -1,0 +1,126 @@
+body{
+  font-family: arial;
+  background: #b2bec3;
+  padding:0;
+  margin: 0;
+  
+}
+h1{
+  text-align: center;
+  margin: 0;
+}
+#main{
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+  font-size: 19px;
+  height: 100vh;
+}
+#header{
+  background: #6c5ce7;
+  color: #fff;
+  padding: 15px;
+}
+
+#table-data h3{
+  text-align: center;
+  color: #6c5ce7;
+  padding: 15px;
+}
+
+#table-data th{
+  background:#411429;
+  color: #fff;
+  font-size: 15px;
+}
+
+#table-data tr td{
+  font-size: 14px;
+}
+
+#table-data tbody tr:nth-child(even){
+  background: #ecf0f1;
+}
+#pagination{
+  text-align: center;
+}
+#pagination tr{
+  background: #fff;
+}
+#ajaxbtn{
+  background: #6c5ce7;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  padding: 10px 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#ajaxbtn:disabled {
+  background: #7f8c8d;
+  color: #2c3e50;
+  cursor: default;
+}
+
+/*  */
+#content{
+  padding: 20px;
+  background: #e84393;
+  text-align: center;
+}
+
+#content label{
+  color: #fff;
+  font-size: 20px;
+}
+
+#content input[type=search]{
+  width: 200px;
+  height: 30px;
+  outline: 0;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#content input[type=submit]{
+  color: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  background: darkblue;
+}
+
+#content #autocomplete{
+  display: inline-block;
+}
+
+/* city list */
+
+#cityList{
+  width: 200px;
+  /* margin-left: 80px; */
+  position: fixed;
+  background: white;
+  border-radius: 6px;
+  border-top: 1px solid #eee;
+  display: none;
+}
+#cityList ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cityList ul li{
+  border-bottom: 1px dotted #ddd;
+  padding: 6px;
+}
+#cityList ul li:hover{
+  background: rgb(73, 73, 219);
+  color: #fff;
+  border-radius: 6px;
+}

@@ -1,0 +1,110 @@
+body{
+  font-family: arial;
+  background: #b2bec3;
+  padding:0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  margin: 0;
+}
+#main{
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+  font-size: 19px;
+  height: 150vh;
+}
+#header{
+  background: #6c5ce7;
+  color: #fff;
+  padding: 15px;
+}
+
+#loadData{
+  margin-bottom: 50px;
+}
+
+#loadData:last-child{
+  margin-bottom: none;
+}
+
+#table-data h3{
+  text-align: center;
+  color: #6c5ce7;
+  padding: 15px;
+}
+
+#loadTable{
+
+}
+.global-wise{
+
+}
+.bdTable{
+  margin: 0 auto;
+}
+#table-data th{
+  background:#e84393;
+  color: #fff;
+  font-size: 15px;
+}
+
+#table-data tr td{
+  font-size: 14px;
+}
+
+#table-data tbody tr:nth-child(even){
+  background: #ecf0f1;
+}
+#pagination{
+  text-align: center;
+}
+#pagination tr{
+  background: #fff;
+}
+#ajaxbtn{
+  background: #6c5ce7;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  padding: 10px 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#ajaxbtn:disabled {
+  background: #7f8c8d;
+  color: #2c3e50;
+  cursor: default;
+}
+
+/*  */
+#content{
+  padding: 20px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+#content .input-group label{
+  font-size: 18px;
+}
+
+#content .input-group input[type=text]{
+  font-size: 15px;
+  padding: 5px;
+  outline: 0;
+}
+
+#content #sub input[type=submit]{
+  border: none;
+  background: blue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#content #sub input[type=submit]:hover{
+  background: #e84393;
+}
